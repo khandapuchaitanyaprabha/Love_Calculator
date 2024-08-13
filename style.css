@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6; /* soft pink background */
+}
+
+header {
+    /* background-color: #ffc5c5; pastel pink header */
+    background-image: url(https://beinglol.com/media/facebook-cover/Love-Candy-facebook-covers-2506.jpeg);
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+
+    background-size: 10px;
+    color: white;
+    /* color: #ff69b4; hot pink title */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.input-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ffc5c5; /* pastel pink border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5); /* hot pink shadow */
+}
+
+.input-section h2 {
+    margin-top: 0;
+    color: #ff69b4; /* hot pink subtitle */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ffc5c5; /* pastel pink border */
+    border-radius: 5px;
+}
+
+button[type="button"] {
+    background-color: #ff69b4; /* hot pink button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #ff33cc; /* darker hot pink on hover */
+}
+
+.result-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ffc5c5; /* pastel pink border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5); /* hot pink shadow */
+    margin-top: 20px;
+}
+
+.result-section h2 {
+    margin-top: 0;
+    color: #ff69b4; /* hot pink subtitle */
+}
+
+#result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#result-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff69b4; /* hot pink result text */
+}
+
+#love-meter {
+    width: 100%;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffc5c5; /* pastel pink meter background */
+}
+
+#love-meter::-webkit-meter-bar {
+    background-color: #ff69b4; /* hot pink meter fill */
+    border-radius: 10px;
+}
+#footer1{
+    text-align: center;
+    margin-top: auto;
+    
+
+}
